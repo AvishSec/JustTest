@@ -1,10 +1,4 @@
-asdasd
-as
-da
-sd
-asd
-a
-sd
-as
-d
-JUST TESTED 
+def main():
+    import requests
+    r = requests.get("google.com")
+    print(r.content)
